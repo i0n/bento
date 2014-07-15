@@ -40,7 +40,8 @@
   "post-processors": [
     {
       "output": "../builds/{{.Provider}}/project_atomic/project_atomic_rawhide.box",
-      "type": "vagrant"
+      "type": "vagrant",
+      "keep_input_artifact": true
     }
   ],
   "provisioners": [
